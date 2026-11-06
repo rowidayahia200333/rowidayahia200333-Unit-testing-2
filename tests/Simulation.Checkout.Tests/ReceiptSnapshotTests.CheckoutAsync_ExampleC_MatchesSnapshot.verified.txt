@@ -1,0 +1,17 @@
+﻿{
+  OrderId: Guid_1,
+  CustomerName: John Doe,
+  CustomerEmail: john@example.com,
+  Items: [
+    {
+      ProductId: Guid_2,
+      ProductName: Wireless Mouse,
+      UnitPrice: 150.0,
+      Quantity: 2,
+      LineTotal: 300.0
+    }
+  ],
+  Subtotal: 300.0,
+  Total: 300.0,
+  CreatedAt: DateTimeOffset_1
+}
