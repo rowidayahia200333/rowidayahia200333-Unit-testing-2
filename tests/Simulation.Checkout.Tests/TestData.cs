@@ -1,3 +1,4 @@
+using Simulation.Checkout.Application;
 using System;
 using Xunit;
 using FluentAssertions;

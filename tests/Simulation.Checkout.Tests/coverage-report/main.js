@@ -287,16 +287,1907 @@ for (i = 0, l = charts.length; i < l; i++) {
 }
 
 var assemblies = [
+  {
+    "name": "Argon",
+    "classes": [
+      { "name": "Argon.CamelCaseNamingStrategy", "rp": "Argon_CamelCaseNamingStrategy.html", "cl": 0, "ucl": 20, "cal": 20, "tl": 82, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.CamelCasePropertyNamesContractResolver", "rp": "Argon_CamelCasePropertyNamesContractResolver.html", "cl": 0, "ucl": 23, "cal": 23, "tl": 68, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.DateTimeConverterBase", "rp": "Argon_DateTimeConverterBase.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 24, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.DefaultContractResolver", "rp": "Argon_DefaultContractResolver.html", "cl": 205, "ucl": 135, "cal": 340, "tl": 893, "cb": 92, "tb": 226, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.DefaultJsonNameTable", "rp": "Argon_DefaultJsonNameTable.html", "cl": 28, "ucl": 38, "cal": 66, "tl": 180, "cb": 7, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.DefaultJsonNameTable.Entry", "rp": "Argon_Entry.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 180, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.DefaultNamingStrategy", "rp": "Argon_DefaultNamingStrategy.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.DefaultSerializationBinder", "rp": "Argon_DefaultSerializationBinder.html", "cl": 0, "ucl": 63, "cal": 63, "tl": 175, "cb": 0, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.DynamicValueProvider", "rp": "Argon_DynamicValueProvider.html", "cl": 5, "ucl": 8, "cal": 13, "tl": 78, "cb": 2, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.EncodingConverter", "rp": "Argon_EncodingConverter.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.ExpandoObjectConverter", "rp": "Argon_ExpandoObjectConverter.html", "cl": 1, "ucl": 28, "cal": 29, "tl": 112, "cb": 0, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.Extensions", "rp": "Argon_Extensions.html", "cl": 0, "ucl": 53, "cal": 53, "tl": 263, "cb": 0, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.Extensions\u003CT, U\u003E", "rp": "Argon_Extensions_T__U_.html", "cl": 0, "ucl": 53, "cal": 53, "tl": 263, "cb": 0, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.Extensions\u003CT\u003E", "rp": "Argon_Extensions_T_.html", "cl": 0, "ucl": 53, "cal": 53, "tl": 263, "cb": 0, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.IsoDateTimeConverter", "rp": "Argon_IsoDateTimeConverter.html", "cl": 0, "ucl": 44, "cal": 44, "tl": 135, "cb": 0, "tb": 46, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.ItemInterceptResult", "rp": "Argon_ItemInterceptResult.html", "cl": 5, "ucl": 2, "cal": 7, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JArray", "rp": "Argon_JArray.html", "cl": 0, "ucl": 63, "cal": 63, "tl": 329, "cb": 0, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JContainer", "rp": "Argon_JContainer.html", "cl": 0, "ucl": 244, "cal": 244, "tl": 641, "cb": 0, "tb": 149, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JEnumerable\u003CT\u003E", "rp": "Argon_JEnumerable_T_.html", "cl": 0, "ucl": 14, "cal": 14, "tl": 92, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JObject", "rp": "Argon_JObject.html", "cl": 0, "ucl": 144, "cal": 144, "tl": 591, "cb": 0, "tb": 76, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JObject.JObjectDynamicProxy", "rp": "Argon_JObjectDynamicProxy.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 591, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JProperty", "rp": "Argon_JProperty.html", "cl": 0, "ucl": 91, "cal": 91, "tl": 312, "cb": 0, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JProperty.JPropertyList", "rp": "Argon_JPropertyList.html", "cl": 0, "ucl": 30, "cal": 30, "tl": 103, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JRaw", "rp": "Argon_JRaw.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 46, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonArrayAttribute", "rp": "Argon_JsonArrayAttribute.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 24, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonArrayContract", "rp": "Argon_JsonArrayContract.html", "cl": 35, "ucl": 61, "cal": 96, "tl": 258, "cb": 24, "tb": 66, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonContainerAttribute", "rp": "Argon_JsonContainerAttribute.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 67, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonContainerContract", "rp": "Argon_JsonContainerContract.html", "cl": 4, "ucl": 5, "cal": 9, "tl": 57, "cb": 1, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonContract", "rp": "Argon_JsonContract.html", "cl": 16, "ucl": 1, "cal": 17, "tl": 99, "cb": 5, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonConvert", "rp": "Argon_JsonConvert.html", "cl": 3, "ucl": 155, "cal": 158, "tl": 854, "cb": 1, "tb": 89, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonConverter", "rp": "Argon_JsonConverter.html", "cl": 1, "ucl": 1, "cal": 2, "tl": 39, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonConverter\u003CT\u003E", "rp": "Argon_JsonConverter_T_.html", "cl": 1, "ucl": 7, "cal": 8, "tl": 89, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonConverterAttribute", "rp": "Argon_JsonConverterAttribute.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 24, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonDictionaryAttribute", "rp": "Argon_JsonDictionaryAttribute.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonDictionaryContract", "rp": "Argon_JsonDictionaryContract.html", "cl": 0, "ucl": 73, "cal": 73, "tl": 228, "cb": 0, "tb": 58, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonDynamicContract", "rp": "Argon_JsonDynamicContract.html", "cl": 0, "ucl": 22, "cal": 22, "tl": 78, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonException", "rp": "Argon_JsonException.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 30, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonLinqContract", "rp": "Argon_JsonLinqContract.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonLoadSettings", "rp": "Argon_JsonLoadSettings.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonObjectAttribute", "rp": "Argon_JsonObjectAttribute.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 53, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonObjectContract", "rp": "Argon_JsonObjectContract.html", "cl": 5, "ucl": 10, "cal": 15, "tl": 98, "cb": 2, "tb": 14, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonPrimitiveContract", "rp": "Argon_JsonPrimitiveContract.html", "cl": 23, "ucl": 0, "cal": 23, "tl": 48, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonProperty", "rp": "Argon_JsonProperty.html", "cl": 16, "ucl": 12, "cal": 28, "tl": 208, "cb": 5, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonPropertyAttribute", "rp": "Argon_JsonPropertyAttribute.html", "cl": 0, "ucl": 26, "cal": 26, "tl": 149, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonPropertyCollection", "rp": "Argon_JsonPropertyCollection.html", "cl": 17, "ucl": 33, "cal": 50, "tl": 167, "cb": 6, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonReader", "rp": "Argon_JsonReader.html", "cl": 0, "ucl": 416, "cal": 416, "tl": 1260, "cb": 0, "tb": 302, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonReaderException", "rp": "Argon_JsonReaderException.html", "cl": 0, "ucl": 13, "cal": 13, "tl": 59, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonSerializationException", "rp": "Argon_JsonSerializationException.html", "cl": 0, "ucl": 19, "cal": 19, "tl": 88, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonSerializer", "rp": "Argon_JsonSerializer.html", "cl": 70, "ucl": 101, "cal": 171, "tl": 696, "cb": 55, "tb": 132, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonSerializerSettings", "rp": "Argon_JsonSerializerSettings.html", "cl": 3, "ucl": 38, "cal": 41, "tl": 222, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonStringContract", "rp": "Argon_JsonStringContract.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonTextReader", "rp": "Argon_JsonTextReader.html", "cl": 0, "ucl": 809, "cal": 809, "tl": 2215, "cb": 0, "tb": 787, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonTextWriter", "rp": "Argon_JsonTextWriter.html", "cl": 54, "ucl": 215, "cal": 269, "tl": 806, "cb": 9, "tb": 90, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonWriter", "rp": "Argon_JsonWriter.html", "cl": 125, "ucl": 358, "cal": 483, "tl": 1562, "cb": 56, "tb": 189, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JsonWriterException", "rp": "Argon_JsonWriterException.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 31, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JToken", "rp": "Argon_JToken.html", "cl": 0, "ucl": 656, "cal": 656, "tl": 2073, "cb": 0, "tb": 366, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JTokenEqualityComparer", "rp": "Argon_JTokenEqualityComparer.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 38, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JTokenReader", "rp": "Argon_JTokenReader.html", "cl": 0, "ucl": 109, "cal": 109, "tl": 288, "cb": 0, "tb": 69, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JTokenWriter", "rp": "Argon_JTokenWriter.html", "cl": 0, "ucl": 145, "cal": 145, "tl": 472, "cb": 0, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JValue", "rp": "Argon_JValue.html", "cl": 0, "ucl": 359, "cal": 359, "tl": 1092, "cb": 0, "tb": 433, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.JValue.JValueDynamicProxy", "rp": "Argon_JValueDynamicProxy.html", "cl": 0, "ucl": 28, "cal": 28, "tl": 964, "cb": 0, "tb": 43, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.KebabCaseNamingStrategy", "rp": "Argon_KebabCaseNamingStrategy.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 41, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.KeyValueInterceptResult", "rp": "Argon_KeyValueInterceptResult.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 49, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.KeyValuePairConverter", "rp": "Argon_KeyValuePairConverter.html", "cl": 5, "ucl": 40, "cal": 45, "tl": 119, "cb": 6, "tb": 28, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.NamingStrategy", "rp": "Argon_NamingStrategy.html", "cl": 0, "ucl": 16, "cal": 16, "tl": 94, "cb": 0, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.RegexConverter", "rp": "Argon_RegexConverter.html", "cl": 1, "ucl": 46, "cal": 47, "tl": 140, "cb": 0, "tb": 30, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.SnakeCaseNamingStrategy", "rp": "Argon_SnakeCaseNamingStrategy.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 41, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.StringBuilderConverter", "rp": "Argon_StringBuilderConverter.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.StringEnumConverter", "rp": "Argon_StringEnumConverter.html", "cl": 5, "ucl": 33, "cal": 38, "tl": 128, "cb": 1, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.StringWriterConverter", "rp": "Argon_StringWriterConverter.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Argon.VersionConverter", "rp": "Argon_VersionConverter.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 18, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "AttributeCache\u003CT\u003E", "rp": "Argon_AttributeCache_T_.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Base64Encoder", "rp": "Argon_Base64Encoder.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 23, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BidirectionalDictionary\u003CTFirst, TSecond\u003E", "rp": "Argon_BidirectionalDictionary_TFirst__TSecond_.html", "cl": 0, "ucl": 19, "cal": 19, "tl": 47, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BoxedPrimitives", "rp": "Argon_BoxedPrimitives.html", "cl": 0, "ucl": 78, "cal": 78, "tl": 139, "cb": 0, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BufferUtils", "rp": "Argon_BufferUtils.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 26, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "CollectionUtils", "rp": "Argon_CollectionUtils.html", "cl": 18, "ucl": 49, "cal": 67, "tl": 201, "cb": 12, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "CollectionUtils.EmptyArrayContainer\u003CT\u003E", "rp": "Argon_EmptyArrayContainer_T_.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 201, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "CollectionWrapper\u003CT\u003E", "rp": "Argon_CollectionWrapper_T_.html", "cl": 0, "ucl": 80, "cal": 80, "tl": 246, "cb": 0, "tb": 52, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ConvertUtils", "rp": "Argon_ConvertUtils.html", "cl": 77, "ucl": 365, "cal": 442, "tl": 1004, "cb": 4, "tb": 361, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ConvertUtils.CastConverters", "rp": "Argon_CastConverters.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 124, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DateTimeParser", "rp": "Argon_DateTimeParser.html", "cl": 0, "ucl": 100, "cal": 100, "tl": 214, "cb": 0, "tb": 130, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DateTimeUtils", "rp": "Argon_DateTimeUtils.html", "cl": 0, "ucl": 118, "cal": 118, "tl": 281, "cb": 0, "tb": 68, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DefaultReferenceResolver", "rp": "Argon_DefaultReferenceResolver.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 51, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DelegateFactory", "rp": "Argon_DelegateFactory.html", "cl": 101, "ucl": 79, "cal": 180, "tl": 422, "cb": 27, "tb": 60, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DelegateFactory\u003CT\u003E", "rp": "Argon_DelegateFactory_T_.html", "cl": 101, "ucl": 79, "cal": 180, "tl": 422, "cb": 27, "tb": 60, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DictionaryWrapper.DictionaryEnumerator\u003CTKey, TValue, TEnumeratorKey, TEnumeratorValue\u003E", "rp": "Argon_DictionaryEnumerator_TKey__TValue__TEnumeratorKey__TEnumeratorValue_.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 405, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DictionaryWrapper\u003CTKey, TValue\u003E", "rp": "Argon_DictionaryWrapper_TKey__TValue_.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 405, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DictionaryWrapper\u003CTKey, TValue\u003E", "rp": "Argon_DictionaryWrapper_TKey__TValue_.html", "cl": 0, "ucl": 176, "cal": 176, "tl": 564, "cb": 0, "tb": 128, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DriveInfoConverter", "rp": "Argon_DriveInfoConverter.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DynamicProxy\u003CT\u003E", "rp": "Argon_DynamicProxy_T_.html", "cl": 0, "ucl": 21, "cal": 21, "tl": 67, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DynamicProxyMetaObject.GetBinderAdapter\u003CT\u003E", "rp": "Argon_GetBinderAdapter_T_.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 404, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DynamicProxyMetaObject\u003CT\u003E", "rp": "Argon_DynamicProxyMetaObject_T_.html", "cl": 0, "ucl": 18, "cal": 18, "tl": 404, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DynamicProxyMetaObject\u003CT\u003E", "rp": "Argon_DynamicProxyMetaObject_T_.html", "cl": 0, "ucl": 146, "cal": 146, "tl": 389, "cb": 0, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DynamicUtils", "rp": "Argon_DynamicUtils.html", "cl": 0, "ucl": 33, "cal": 33, "tl": 106, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DynamicUtils.BinderWrapper", "rp": "Argon_BinderWrapper.html", "cl": 0, "ucl": 31, "cal": 31, "tl": 99, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "EnumInfo", "rp": "Argon_EnumInfo.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "EnumUtils", "rp": "Argon_EnumUtils.html", "cl": 0, "ucl": 130, "cal": 130, "tl": 304, "cb": 0, "tb": 102, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ErrorContext", "rp": "Argon_ErrorContext.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ILGeneratorExtensions", "rp": "Argon_ILGeneratorExtensions.html", "cl": 20, "ucl": 3, "cal": 23, "tl": 66, "cb": 8, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ImmutableCollectionsUtils", "rp": "Argon_ImmutableCollectionsUtils.html", "cl": 54, "ucl": 13, "cal": 67, "tl": 116, "cb": 14, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ImmutableCollectionsUtils.TypeInfo", "rp": "Argon_TypeInfo.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 18, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JavaScriptUtils", "rp": "Argon_JavaScriptUtils.html", "cl": 26, "ucl": 98, "cal": 124, "tl": 311, "cb": 17, "tb": 105, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JPropertyKeyedCollection", "rp": "Argon_JPropertyKeyedCollection.html", "cl": 0, "ucl": 68, "cal": 68, "tl": 192, "cb": 0, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JsonPosition", "rp": "Argon_JsonPosition.html", "cl": 5, "ucl": 44, "cal": 49, "tl": 121, "cb": 0, "tb": 30, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JsonSerializerInternalBase", "rp": "Argon_JsonSerializerInternalBase.html", "cl": 4, "ucl": 12, "cal": 16, "tl": 48, "cb": 2, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JsonSerializerInternalBase.ReferenceEqualsEqualityComparer", "rp": "Argon_ReferenceEqualsEqualityComparer.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JsonSerializerInternalReader", "rp": "Argon_JsonSerializerInternalReader.html", "cl": 0, "ucl": 942, "cal": 942, "tl": 2301, "cb": 0, "tb": 850, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JsonSerializerInternalWriter", "rp": "Argon_JsonSerializerInternalWriter.html", "cl": 159, "ucl": 323, "cal": 482, "tl": 1128, "cb": 124, "tb": 362, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JsonSerializerProxy", "rp": "Argon_JsonSerializerProxy.html", "cl": 4, "ucl": 68, "cal": 72, "tl": 215, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JsonTokenUtils", "rp": "Argon_JsonTokenUtils.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 38, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JsonTypeReflector", "rp": "Argon_JsonTypeReflector.html", "cl": 34, "ucl": 21, "cal": 55, "tl": 184, "cb": 17, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "JsonTypeReflector.CreatorCache", "rp": "Argon_CreatorCache.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "MathUtils", "rp": "Argon_MathUtils.html", "cl": 0, "ucl": 47, "cal": 47, "tl": 130, "cb": 0, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "MiscellaneousUtils", "rp": "Argon_MiscellaneousUtils.html", "cl": 5, "ucl": 34, "cal": 39, "tl": 121, "cb": 6, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "NoThrowExpressionVisitor", "rp": "Argon_NoThrowExpressionVisitor.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 152, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "NoThrowGetBinderMember", "rp": "Argon_NoThrowGetBinderMember.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 121, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "NoThrowSetBinderMember", "rp": "Argon_NoThrowSetBinderMember.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 136, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "PathInfoConverter", "rp": "Argon_PathInfoConverter.html", "cl": 2, "ucl": 7, "cal": 9, "tl": 29, "cb": 1, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ReflectionObject", "rp": "Argon_ReflectionObject.html", "cl": 0, "ucl": 36, "cal": 36, "tl": 107, "cb": 0, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ReflectionUtils", "rp": "Argon_ReflectionUtils.html", "cl": 93, "ucl": 172, "cal": 265, "tl": 735, "cb": 70, "tb": 234, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "StringBuffer", "rp": "Argon_StringBuffer.html", "cl": 0, "ucl": 28, "cal": 28, "tl": 78, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "StringReference", "rp": "Argon_StringReference.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "StringUtils", "rp": "Argon_StringUtils.html", "cl": 0, "ucl": 66, "cal": 66, "tl": 184, "cb": 0, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ThreadSafeStore\u003CTKey, TValue\u003E", "rp": "Argon_ThreadSafeStore_TKey__TValue_.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TimeZoneInfoConverter", "rp": "Argon_TimeZoneInfoConverter.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TypeInformation", "rp": "Argon_TypeInformation.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 5, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+    ]},
+  {
+    "name": "CheckoutServiceTests",
+    "classes": [
+      { "name": "CheckoutServiceTests", "rp": "CheckoutServiceTests_CheckoutServiceTests.html", "cl": 333, "ucl": 0, "cal": 333, "tl": 448, "cb": 8, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "DataTests", "rp": "CheckoutServiceTests_DataTests.html", "cl": 61, "ucl": 0, "cal": 61, "tl": 100, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ReceiptSnapshotTests", "rp": "CheckoutServiceTests_ReceiptSnapshotTests.html", "cl": 31, "ucl": 0, "cal": 31, "tl": 58, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+    ]},
+  {
+    "name": "Simulation.Checkout.Application",
+    "classes": [
+      { "name": "Simulation.Checkout.Application.CheckoutException", "rp": "Simulation.Checkout.Application_CheckoutException.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Simulation.Checkout.Application.CheckoutService", "rp": "Simulation.Checkout.Application_CheckoutService.html", "cl": 70, "ucl": 3, "cal": 73, "tl": 105, "cb": 24, "tb": 28, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Simulation.Checkout.Application.EmptyOrderException", "rp": "Simulation.Checkout.Application_EmptyOrderException.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Simulation.Checkout.Application.InsufficientInventoryException", "rp": "Simulation.Checkout.Application_InsufficientInventoryException.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Simulation.Checkout.Application.InvalidPriceException", "rp": "Simulation.Checkout.Application_InvalidPriceException.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Simulation.Checkout.Application.InvalidQuantityException", "rp": "Simulation.Checkout.Application_InvalidQuantityException.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Simulation.Checkout.Application.Order", "rp": "Simulation.Checkout.Application_Order.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+    ]},
 ];
 
-var metrics = [];
+var metrics = [{ "name": "Crap Score", "abbreviation": "crp", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" }, { "name": "Cyclomatic complexity", "abbreviation": "cc", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" }, { "name": "Line coverage", "abbreviation": "cov", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }, { "name": "Branch coverage", "abbreviation": "bcov", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }];
 
 var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
+      { "name": "Crap Score", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" },
+      { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
 ];
 
 var riskHotspots = [
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "Operation(System.Linq.Expressions.ExpressionType, object, object, out object)", "methodShortName": "Operation(...)", "fileIndex": 0, "line": 349,
+    "metrics": [
+      { "value": 29070, "exceeded": true },
+      { "value": 170, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "DecimalTryParse(char[], int, int, out System.Decimal)", "methodShortName": "DecimalTryParse(...)", "fileIndex": 0, "line": 722,
+    "metrics": [
+      { "value": 14042, "exceeded": true },
+      { "value": 118, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateObjectUsingCreatorWithParameters(Argon.JsonReader, Argon.JsonObjectContract, Argon.JsonProperty, Argon.ObjectConstructor, string)", "methodShortName": "CreateObjectUsingCreatorWithParameters(...)", "fileIndex": 0, "line": 1660,
+    "metrics": [
+      { "value": 10506, "exceeded": true },
+      { "value": 102, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadStringValue(ReadType)", "methodShortName": "ReadStringValue(...)", "fileIndex": 0, "line": 456,
+    "metrics": [
+      { "value": 7656, "exceeded": true },
+      { "value": 87, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadAsBoolean()", "methodShortName": "ReadAsBoolean()", "fileIndex": 0, "line": 621,
+    "metrics": [
+      { "value": 5700, "exceeded": true },
+      { "value": 75, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadNumberValue(ReadType)", "methodShortName": "ReadNumberValue(...)", "fileIndex": 0, "line": 757,
+    "metrics": [
+      { "value": 5402, "exceeded": true },
+      { "value": 73, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseValue()", "methodShortName": "ParseValue()", "fileIndex": 0, "line": 1482,
+    "metrics": [
+      { "value": 5112, "exceeded": true },
+      { "value": 71, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JavaScriptUtils", "reportPath": "Argon_JavaScriptUtils.html", "methodName": "WriteEscapedJavaScriptNonNullString(System.IO.TextWriter, System.ReadOnlySpan\u003Cchar\u003E, bool[], Argon.EscapeHandling, ref char[])", "methodShortName": "WriteEscapedJavaScriptNonNullString(...)", "fileIndex": 0, "line": 103,
+    "metrics": [
+      { "value": 4830, "exceeded": true },
+      { "value": 69, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "TryConvertInternal(object, System.Type, out object)", "methodShortName": "TryConvertInternal(...)", "fileIndex": 0, "line": 288,
+    "metrics": [
+      { "value": 4692, "exceeded": true },
+      { "value": 68, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadStringIntoBuffer(char)", "methodShortName": "ReadStringIntoBuffer(...)", "fileIndex": 0, "line": 961,
+    "metrics": [
+      { "value": 4032, "exceeded": true },
+      { "value": 63, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadAsBytes()", "methodShortName": "ReadAsBytes()", "fileIndex": 0, "line": 350,
+    "metrics": [
+      { "value": 3422, "exceeded": true },
+      { "value": 58, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateObject(Argon.JsonReader, System.Type, Argon.JsonContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty, object)", "methodShortName": "CreateObject(...)", "fileIndex": 0, "line": 297,
+    "metrics": [
+      { "value": 2862, "exceeded": true },
+      { "value": 53, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "Compare(Argon.JTokenType, object, object)", "methodShortName": "Compare(...)", "fileIndex": 0, "line": 193,
+    "metrics": [
+      { "value": 2756, "exceeded": true },
+      { "value": 52, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "GetValueType(System.Nullable\u003CArgon.JTokenType\u003E, object)", "methodShortName": "GetValueType(...)", "fileIndex": 0, "line": 525,
+    "metrics": [
+      { "value": 2550, "exceeded": true },
+      { "value": 50, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "PopulateDictionary(System.Collections.IDictionary, Argon.JsonReader, Argon.JsonDictionaryContract, Argon.JsonProperty, string)", "methodShortName": "PopulateDictionary(...)", "fileIndex": 0, "line": 1153,
+    "metrics": [
+      { "value": 2352, "exceeded": true },
+      { "value": 48, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "PopulateObject(object, Argon.JsonReader, Argon.JsonObjectContract, Argon.JsonProperty, string)", "methodShortName": "PopulateObject(...)", "fileIndex": 0, "line": 2010,
+    "metrics": [
+      { "value": 2352, "exceeded": true },
+      { "value": 48, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "WriteTo(Argon.JsonWriter, Argon.JsonConverter[])", "methodShortName": "WriteTo(...)", "fileIndex": 0, "line": 662,
+    "metrics": [
+      { "value": 2162, "exceeded": true },
+      { "value": 46, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CalculatePropertyDetails(Argon.JsonProperty, ref Argon.JsonConverter, Argon.JsonContainerContract, Argon.JsonProperty, Argon.JsonReader, object, out bool, out object, out Argon.JsonContract, out bool, out bool)", "methodShortName": "CalculatePropertyDetails(...)", "fileIndex": 0, "line": 910,
+    "metrics": [
+      { "value": 2162, "exceeded": true },
+      { "value": 46, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonConvert", "reportPath": "Argon_JsonConvert.html", "methodName": "ToString(object)", "methodShortName": "ToString(...)", "fileIndex": 0, "line": 324,
+    "metrics": [
+      { "value": 1892, "exceeded": true },
+      { "value": 43, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseReadNumber(ReadType, char, int)", "methodShortName": "ParseReadNumber(...)", "fileIndex": 0, "line": 1672,
+    "metrics": [
+      { "value": 1806, "exceeded": true },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "Int32TryParse(char[], int, int, out int)", "methodShortName": "Int32TryParse(...)", "fileIndex": 0, "line": 536,
+    "metrics": [
+      { "value": 1806, "exceeded": true },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeParser", "reportPath": "Argon_DateTimeParser.html", "methodName": "ParseTime(ref int)", "methodShortName": "ParseTime(...)", "fileIndex": 0, "line": 65,
+    "metrics": [
+      { "value": 1806, "exceeded": true },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "EnumUtils", "reportPath": "Argon_EnumUtils.html", "methodName": "ParseEnum(System.Type, Argon.NamingStrategy, string, bool)", "methodShortName": "ParseEnum(...)", "fileIndex": 0, "line": 170,
+    "metrics": [
+      { "value": 1640, "exceeded": true },
+      { "value": 40, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateDynamic(Argon.JsonReader, Argon.JsonDynamicContract, Argon.JsonProperty, string)", "methodShortName": "CreateDynamic(...)", "fileIndex": 0, "line": 1541,
+    "metrics": [
+      { "value": 1640, "exceeded": true },
+      { "value": 40, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "Int64TryParse(char[], int, int, out long)", "methodShortName": "Int64TryParse(...)", "fileIndex": 0, "line": 630,
+    "metrics": [
+      { "value": 1482, "exceeded": true },
+      { "value": 38, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "MathUtils", "reportPath": "Argon_MathUtils.html", "methodName": "IntLength(ulong)", "methodShortName": "IntLength(...)", "fileIndex": 0, "line": 9,
+    "metrics": [
+      { "value": 1482, "exceeded": true },
+      { "value": 38, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "TryBinaryOperation(Argon.JValue, System.Dynamic.BinaryOperationBinder, object, out object)", "methodShortName": "TryBinaryOperation(...)", "fileIndex": 0, "line": 923,
+    "metrics": [
+      { "value": 1406, "exceeded": true },
+      { "value": 37, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue.JValueDynamicProxy", "reportPath": "Argon_JValueDynamicProxy.html", "methodName": "TryBinaryOperation(Argon.JValue, System.Dynamic.BinaryOperationBinder, object, out object)", "methodShortName": "TryBinaryOperation(...)", "fileIndex": 0, "line": 923,
+    "metrics": [
+      { "value": 1406, "exceeded": true },
+      { "value": 37, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonDictionaryContract", "reportPath": "Argon_JsonDictionaryContract.html", "methodName": ".ctor(System.Type)", "methodShortName": ".ctor(...)", "fileIndex": 0, "line": 24,
+    "metrics": [
+      { "value": 1332, "exceeded": true },
+      { "value": 36, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParsePostValue(bool)", "methodShortName": "ParsePostValue(...)", "fileIndex": 0, "line": 1253,
+    "metrics": [
+      { "value": 1190, "exceeded": true },
+      { "value": 34, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeParser", "reportPath": "Argon_DateTimeParser.html", "methodName": "ParseZone(int)", "methodShortName": "ParseZone(...)", "fileIndex": 0, "line": 119,
+    "metrics": [
+      { "value": 1190, "exceeded": true },
+      { "value": 34, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "PopulateMultidimensionalArray(System.Collections.IList, Argon.JsonReader, Argon.JsonArrayContract, Argon.JsonProperty, string)", "methodShortName": "PopulateMultidimensionalArray(...)", "fileIndex": 0, "line": 1289,
+    "metrics": [
+      { "value": 1190, "exceeded": true },
+      { "value": 34, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "ResolvePropertyAndCreatorValues(Argon.JsonObjectContract, Argon.JsonProperty, Argon.JsonReader, System.Type)", "methodShortName": "ResolvePropertyAndCreatorValues(...)", "fileIndex": 0, "line": 1879,
+    "metrics": [
+      { "value": 1190, "exceeded": true },
+      { "value": 34, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JContainer", "reportPath": "Argon_JContainer.html", "methodName": "ReadContentFrom(Argon.JsonReader, Argon.JsonLoadSettings)", "methodShortName": "ReadContentFrom(...)", "fileIndex": 0, "line": 470,
+    "metrics": [
+      { "value": 1122, "exceeded": true },
+      { "value": 33, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseComment(bool)", "methodShortName": "ParseComment(...)", "fileIndex": 0, "line": 1850,
+    "metrics": [
+      { "value": 1056, "exceeded": true },
+      { "value": 32, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateList(Argon.JsonReader, System.Type, Argon.JsonContract, Argon.JsonProperty, object, string)", "methodShortName": "CreateList(...)", "fileIndex": 0, "line": 695,
+    "metrics": [
+      { "value": 1056, "exceeded": true },
+      { "value": 32, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "EndProcessProperty(object, Argon.JsonReader, Argon.JsonObjectContract, int, Argon.JsonProperty, JsonSerializerInternalReader.PropertyPresence, bool)", "methodShortName": "EndProcessProperty(...)", "fileIndex": 0, "line": 2155,
+    "metrics": [
+      { "value": 1056, "exceeded": true },
+      { "value": 32, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "ReadFrom(Argon.JsonReader, Argon.JsonLoadSettings)", "methodShortName": "ReadFrom(...)", "fileIndex": 0, "line": 1898,
+    "metrics": [
+      { "value": 930, "exceeded": true },
+      { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "ReadMetadataProperties(Argon.JsonReader, ref System.Type, ref Argon.JsonContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty, object, out object, out string)", "methodShortName": "ReadMetadataProperties(...)", "fileIndex": 0, "line": 550,
+    "metrics": [
+      { "value": 930, "exceeded": true },
+      { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateValueInternal(Argon.JsonReader, System.Type, Argon.JsonContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty, object)", "methodShortName": "CreateValueInternal(...)", "fileIndex": 0, "line": 166,
+    "metrics": [
+      { "value": 812, "exceeded": true },
+      { "value": 28, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "ReadMetadataPropertiesToken(Argon.JTokenReader, ref System.Type, ref Argon.JsonContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty, object, out object, out string)", "methodShortName": "ReadMetadataPropertiesToken(...)", "fileIndex": 0, "line": 461,
+    "metrics": [
+      { "value": 812, "exceeded": true },
+      { "value": 28, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "PopulateList(System.Collections.IList, Argon.JsonReader, Argon.JsonArrayContract, Argon.JsonProperty, string)", "methodShortName": "PopulateList(...)", "fileIndex": 0, "line": 1441,
+    "metrics": [
+      { "value": 812, "exceeded": true },
+      { "value": 28, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "SerializeDictionary(Argon.JsonWriter, System.Collections.IDictionary, Argon.JsonDictionaryContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty)", "methodShortName": "SerializeDictionary(...)", "fileIndex": 0, "line": 888,
+    "metrics": [
+      { "value": 812, "exceeded": true },
+      { "value": 28, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.IsoDateTimeConverter", "reportPath": "Argon_IsoDateTimeConverter.html", "methodName": "ReadJson(Argon.JsonReader, System.Type, object, Argon.JsonSerializer)", "methodShortName": "ReadJson(...)", "fileIndex": 0, "line": 71,
+    "metrics": [
+      { "value": 702, "exceeded": true },
+      { "value": 26, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "EnsureType(Argon.JsonReader, object, System.Globalization.CultureInfo, Argon.JsonContract, System.Type)", "methodShortName": "EnsureType(...)", "fileIndex": 0, "line": 776,
+    "metrics": [
+      { "value": 702, "exceeded": true },
+      { "value": 26, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "ResolveTypeName(Argon.JsonReader, ref System.Type, ref Argon.JsonContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty, string)", "methodShortName": "ResolveTypeName(...)", "fileIndex": 0, "line": 639,
+    "metrics": [
+      { "value": 600, "exceeded": true },
+      { "value": 24, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateNewList(Argon.JsonReader, Argon.JsonArrayContract, out bool)", "methodShortName": "CreateNewList(...)", "fileIndex": 0, "line": 1027,
+    "metrics": [
+      { "value": 600, "exceeded": true },
+      { "value": 24, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "StringUtils", "reportPath": "Argon_StringUtils.html", "methodName": "ToSeparatedCase(string, char)", "methodShortName": "ToSeparatedCase(...)", "fileIndex": 0, "line": 83,
+    "metrics": [
+      { "value": 600, "exceeded": true },
+      { "value": 24, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadAsBytes()", "methodShortName": "ReadAsBytes()", "fileIndex": 0, "line": 419,
+    "metrics": [
+      { "value": 506, "exceeded": true },
+      { "value": 22, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseObject()", "methodShortName": "ParseObject()", "fileIndex": 0, "line": 1332,
+    "metrics": [
+      { "value": 506, "exceeded": true },
+      { "value": 22, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadForType(Argon.JsonContract, bool)", "methodShortName": "ReadForType(...)", "fileIndex": 0, "line": 1174,
+    "metrics": [
+      { "value": 462, "exceeded": true },
+      { "value": 21, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "ToBigInteger(object)", "methodShortName": "ToBigInteger(...)", "fileIndex": 0, "line": 148,
+    "metrics": [
+      { "value": 420, "exceeded": true },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "EnumUtils", "reportPath": "Argon_EnumUtils.html", "methodName": "InternalFlagsFormat(EnumInfo, ulong)", "methodShortName": "InternalFlagsFormat(...)", "fileIndex": 0, "line": 73,
+    "metrics": [
+      { "value": 420, "exceeded": true },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "EnumUtils", "reportPath": "Argon_EnumUtils.html", "methodName": "ToUInt64(object)", "methodShortName": "ToUInt64(...)", "fileIndex": 0, "line": 137,
+    "metrics": [
+      { "value": 420, "exceeded": true },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JPropertyKeyedCollection", "reportPath": "Argon_JPropertyKeyedCollection.html", "methodName": "Compare(JPropertyKeyedCollection)", "methodShortName": "Compare(...)", "fileIndex": 0, "line": 137,
+    "metrics": [
+      { "value": 420, "exceeded": true },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "SerializeDynamic(Argon.JsonWriter, System.Dynamic.IDynamicMetaObjectProvider, Argon.JsonDynamicContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty)", "methodShortName": "SerializeDynamic(...)", "fileIndex": 0, "line": 747,
+    "metrics": [
+      { "value": 420, "exceeded": true },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonPropertyCollection", "reportPath": "Argon_JsonPropertyCollection.html", "methodName": "AddProperty(Argon.JsonProperty)", "methodShortName": "AddProperty(...)", "fileIndex": 0, "line": 52,
+    "metrics": [
+      { "value": 395, "exceeded": true },
+      { "value": 24, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JTokenReader", "reportPath": "Argon_JTokenReader.html", "methodName": "SetToken(Argon.JToken)", "methodShortName": "SetToken(...)", "fileIndex": 0, "line": 145,
+    "metrics": [
+      { "value": 380, "exceeded": true },
+      { "value": 19, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "GetDefaultValue(System.Type)", "methodShortName": "GetDefaultValue(...)", "fileIndex": 0, "line": 690,
+    "metrics": [
+      { "value": 366, "exceeded": true },
+      { "value": 40, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonArrayContract", "reportPath": "Argon_JsonArrayContract.html", "methodName": ".ctor(System.Type)", "methodShortName": ".ctor(...)", "fileIndex": 0, "line": 79,
+    "metrics": [
+      { "value": 359, "exceeded": true },
+      { "value": 46, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultSerializationBinder", "reportPath": "Argon_DefaultSerializationBinder.html", "methodName": "GetTypeFromTypeNameKey(TypeNameKey)", "methodShortName": "GetTypeFromTypeNameKey(...)", "fileIndex": 0, "line": 22,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadAsString()", "methodShortName": "ReadAsString()", "fileIndex": 0, "line": 368,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "Read()", "methodShortName": "Read()", "fileIndex": 0, "line": 277,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeParser", "reportPath": "Argon_DateTimeParser.html", "methodName": "ParseDate(int)", "methodShortName": "ParseDate(...)", "fileIndex": 0, "line": 50,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeParser", "reportPath": "Argon_DateTimeParser.html", "methodName": "Parse4Digit(int, out int)", "methodShortName": "Parse4Digit(...)", "fileIndex": 0, "line": 178,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "GetConverter(Argon.JsonContract, Argon.JsonConverter, Argon.JsonContainerContract, Argon.JsonProperty)", "methodShortName": "GetConverter(...)", "fileIndex": 0, "line": 252,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "SetPropertyValue(Argon.JsonProperty, Argon.JsonConverter, Argon.JsonContainerContract, Argon.JsonProperty, Argon.JsonReader, object)", "methodShortName": "SetPropertyValue(...)", "fileIndex": 0, "line": 848,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateNewDictionary(Argon.JsonReader, Argon.JsonDictionaryContract, out bool)", "methodShortName": "CreateNewDictionary(...)", "fileIndex": 0, "line": 1096,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateNewObject(Argon.JsonReader, Argon.JsonObjectContract, Argon.JsonProperty, string, out bool)", "methodShortName": "CreateNewObject(...)", "fileIndex": 0, "line": 1964,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.CamelCaseNamingStrategy", "reportPath": "Argon_CamelCaseNamingStrategy.html", "methodName": "ToCamelCase(string)", "methodShortName": "ToCamelCase(...)", "fileIndex": 0, "line": 44,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.Extensions", "reportPath": "Argon_Extensions.html", "methodName": "Convert\u003CT, U\u003E(T)", "methodShortName": "Convert\u003CT, U\u003E(...)", "fileIndex": 0, "line": 197,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.Extensions\u003CT, U\u003E", "reportPath": "Argon_Extensions_T__U_.html", "methodName": "Convert\u003CT, U\u003E(T)", "methodShortName": "Convert\u003CT, U\u003E(...)", "fileIndex": 0, "line": 197,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.Extensions\u003CT\u003E", "reportPath": "Argon_Extensions_T_.html", "methodName": "Convert\u003CT, U\u003E(T)", "methodShortName": "Convert\u003CT, U\u003E(...)", "fileIndex": 0, "line": 197,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.IsoDateTimeConverter", "reportPath": "Argon_IsoDateTimeConverter.html", "methodName": "WriteJson(Argon.JsonWriter, object, Argon.JsonSerializer)", "methodShortName": "WriteJson(...)", "fileIndex": 0, "line": 38,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadAsBoolean()", "methodShortName": "ReadAsBoolean()", "fileIndex": 0, "line": 585,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "SetToken(Argon.JsonToken, object, bool)", "methodShortName": "SetToken(...)", "fileIndex": 0, "line": 888,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadNumberCharIntoBuffer(char, int)", "methodShortName": "ReadNumberCharIntoBuffer(...)", "fileIndex": 0, "line": 1230,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonWriter", "reportPath": "Argon_JsonWriter.html", "methodName": "WriteToken(Argon.JsonToken, object)", "methodShortName": "WriteToken(...)", "fileIndex": 0, "line": 374,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.RegexConverter", "reportPath": "Argon_RegexConverter.html", "methodName": "ReadRegexObject(Argon.JsonReader, Argon.JsonSerializer)", "methodShortName": "ReadRegexObject(...)", "fileIndex": 0, "line": 89,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.StringEnumConverter", "reportPath": "Argon_StringEnumConverter.html", "methodName": "ReadJson(Argon.JsonReader, System.Type, object, Argon.JsonSerializer)", "methodShortName": "ReadJson(...)", "fileIndex": 0, "line": 68,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "IsInteger(object)", "methodShortName": "IsInteger(...)", "fileIndex": 0, "line": 521,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "Deserialize(Argon.JsonReader, System.Type, System.Nullable\u003Cbool\u003E)", "methodShortName": "Deserialize(...)", "fileIndex": 0, "line": 36,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateJToken(Argon.JsonReader, Argon.JsonContract)", "methodShortName": "CreateJToken(...)", "fileIndex": 0, "line": 94,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "SerializeDictionaryItem(Argon.JsonWriter, Argon.JsonDictionaryContract, Argon.JsonProperty, object, object, Argon.JsonContract, object)", "methodShortName": "SerializeDictionaryItem(...)", "fileIndex": 0, "line": 944,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "GetDictionaryPropertyName(object, Argon.JsonContract, out bool)", "methodShortName": "GetDictionaryPropertyName(...)", "fileIndex": 0, "line": 1017,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionObject", "reportPath": "Argon_ReflectionObject.html", "methodName": "Create(System.Type, System.Reflection.MethodBase, string[])", "methodShortName": "Create(...)", "fileIndex": 0, "line": 37,
+    "metrics": [
+      { "value": 272, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonSerializer", "reportPath": "Argon_JsonSerializer.html", "methodName": "ApplySerializerSettings(Argon.JsonSerializer, Argon.JsonSerializerSettings)", "methodShortName": "ApplySerializerSettings(...)", "fileIndex": 0, "line": 282,
+    "metrics": [
+      { "value": 257, "exceeded": true },
+      { "value": 58, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadAsInt32()", "methodShortName": "ReadAsInt32()", "fileIndex": 0, "line": 301,
+    "metrics": [
+      { "value": 240, "exceeded": true },
+      { "value": 15, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadAsDouble()", "methodShortName": "ReadAsDouble()", "fileIndex": 0, "line": 526,
+    "metrics": [
+      { "value": 240, "exceeded": true },
+      { "value": 15, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadAsDecimal()", "methodShortName": "ReadAsDecimal()", "fileIndex": 0, "line": 640,
+    "metrics": [
+      { "value": 240, "exceeded": true },
+      { "value": 15, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "ShouldWriteType(Argon.TypeNameHandling, Argon.JsonContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty)", "methodShortName": "ShouldWriteType(...)", "fileIndex": 0, "line": 841,
+    "metrics": [
+      { "value": 231, "exceeded": true },
+      { "value": 32, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "GetChildPrivateProperties(System.Collections.Generic.List\u003CSystem.Reflection.PropertyInfo\u003E, System.Type, System.Reflection.BindingFlags)", "methodShortName": "GetChildPrivateProperties(...)", "fileIndex": 0, "line": 606,
+    "metrics": [
+      { "value": 231, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultSerializationBinder", "reportPath": "Argon_DefaultSerializationBinder.html", "methodName": "GetGenericTypeFromTypeName(string, System.Reflection.Assembly)", "methodShortName": "GetGenericTypeFromTypeName(...)", "fileIndex": 0, "line": 87,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JContainer", "reportPath": "Argon_JContainer.html", "methodName": "SetItem(int, Argon.JToken)", "methodShortName": "SetItem(...)", "fileIndex": 0, "line": 258,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonSerializer", "reportPath": "Argon_JsonSerializer.html", "methodName": "SetupReader(Argon.JsonReader, out System.Nullable\u003CArgon.FloatParseHandling\u003E, out System.Nullable\u003Cint\u003E)", "methodShortName": "SetupReader(...)", "fileIndex": 0, "line": 525,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseProperty()", "methodShortName": "ParseProperty()", "fileIndex": 0, "line": 1386,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "EatWhitespace()", "methodShortName": "EatWhitespace()", "fileIndex": 0, "line": 1618,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JTokenWriter", "reportPath": "Argon_JTokenWriter.html", "methodName": "WriteToken(Argon.JsonReader, bool, bool)", "methodShortName": "WriteToken(...)", "fileIndex": 0, "line": 430,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "TryHexTextToInt(char[], int, int, out int)", "methodShortName": "TryHexTextToInt(...)", "fileIndex": 0, "line": 975,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeUtils", "reportPath": "Argon_DateTimeUtils.html", "methodName": "TryParseDateTimeOffset(string, out System.DateTimeOffset)", "methodShortName": "TryParseDateTimeOffset(...)", "fileIndex": 0, "line": 109,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "RemoveAssemblyDetails(string)", "methodShortName": "RemoveAssemblyDetails(...)", "fileIndex": 0, "line": 78,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "StringUtils", "reportPath": "Argon_StringUtils.html", "methodName": "Trim(string, int, int)", "methodShortName": "Trim(...)", "fileIndex": 0, "line": 151,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "BoxedPrimitives", "reportPath": "Argon_BoxedPrimitives.html", "methodName": "Get(long)", "methodShortName": "Get(...)", "fileIndex": 0, "line": 41,
+    "metrics": [
+      { "value": 182, "exceeded": true },
+      { "value": 13, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultContractResolver", "reportPath": "Argon_DefaultContractResolver.html", "methodName": "GetHasParameterizedCreator(System.Reflection.ConstructorInfo, Argon.JsonDictionaryContract)", "methodShortName": "GetHasParameterizedCreator(...)", "fileIndex": 0, "line": 439,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.Extensions", "reportPath": "Argon_Extensions.html", "methodName": "Values()", "methodShortName": "Values()", "fileIndex": 0, "line": 126,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.Extensions\u003CT, U\u003E", "reportPath": "Argon_Extensions_T__U_.html", "methodName": "Values()", "methodShortName": "Values()", "fileIndex": 0, "line": 126,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.Extensions\u003CT\u003E", "reportPath": "Argon_Extensions_T_.html", "methodName": "Values()", "methodShortName": "Values()", "fileIndex": 0, "line": 126,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JContainer", "reportPath": "Argon_JContainer.html", "methodName": "EnsureParentToken(Argon.JToken, bool)", "methodShortName": "EnsureParentToken(...)", "fileIndex": 0, "line": 155,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JContainer", "reportPath": "Argon_JContainer.html", "methodName": "RemoveItemAt(int)", "methodShortName": "RemoveItemAt(...)", "fileIndex": 0, "line": 211,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonObjectContract", "reportPath": "Argon_JsonObjectContract.html", "methodName": "get_HasRequiredOrDefaultValueProperties()", "methodShortName": "get_HasRequiredOrDefaultValueProperties()", "fileIndex": 0, "line": 57,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadAsDateTime()", "methodShortName": "ReadAsDateTime()", "fileIndex": 0, "line": 713,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadAsDateTimeOffset()", "methodShortName": "ReadAsDateTimeOffset()", "fileIndex": 0, "line": 762,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonSerializer", "reportPath": "Argon_JsonSerializer.html", "methodName": "ResetReader(Argon.JsonReader, System.Nullable\u003CArgon.FloatParseHandling\u003E, System.Nullable\u003Cint\u003E)", "methodShortName": "ResetReader(...)", "fileIndex": 0, "line": 563,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "PrepareBufferForReadData(bool, int)", "methodShortName": "PrepareBufferForReadData(...)", "fileIndex": 0, "line": 156,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 635,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 1207,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 1330,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "ToObject(System.Type)", "methodShortName": "ToObject(...)", "fileIndex": 0, "line": 1731,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.KeyValuePairConverter", "reportPath": "Argon_KeyValuePairConverter.html", "methodName": "ReadJson(Argon.JsonReader, System.Type, object, Argon.JsonSerializer)", "methodShortName": "ReadJson(...)", "fileIndex": 0, "line": 51,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeUtils", "reportPath": "Argon_DateTimeUtils.html", "methodName": "TryParseDateTimeOffsetIso(StringReference, out System.DateTimeOffset)", "methodShortName": "TryParseDateTimeOffsetIso(...)", "fileIndex": 0, "line": 28,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeUtils", "reportPath": "Argon_DateTimeUtils.html", "methodName": "TryParseDateTime(string, out System.DateTime)", "methodShortName": "TryParseDateTime(...)", "fileIndex": 0, "line": 92,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeUtils", "reportPath": "Argon_DateTimeUtils.html", "methodName": "GetDateValues(System.DateTime, out int, out int, out int)", "methodShortName": "GetDateValues(...)", "fileIndex": 0, "line": 229,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "TryConvertToString(object, System.Type, out string)", "methodShortName": "TryConvertToString(...)", "fileIndex": 0, "line": 325,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "SerializeMultidimensionalArray(Argon.JsonWriter, System.Array, Argon.JsonArrayContract, Argon.JsonProperty, int, int[])", "methodShortName": "SerializeMultidimensionalArray(...)", "fileIndex": 0, "line": 657,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "MiscellaneousUtils", "reportPath": "Argon_MiscellaneousUtils.html", "methodName": "GetRegexOptions(System.ReadOnlySpan\u003Cchar\u003E)", "methodShortName": "GetRegexOptions(...)", "fileIndex": 0, "line": 99,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultContractResolver", "reportPath": "Argon_DefaultContractResolver.html", "methodName": "CreatePropertyFromConstructorParameter(Argon.JsonProperty, System.Reflection.ParameterInfo)", "methodShortName": "CreatePropertyFromConstructorParameter(...)", "fileIndex": 0, "line": 332,
+    "metrics": [
+      { "value": 155, "exceeded": true },
+      { "value": 24, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "MiscellaneousUtils", "reportPath": "Argon_MiscellaneousUtils.html", "methodName": "ValueEquals(object, object)", "methodShortName": "ValueEquals(...)", "fileIndex": 0, "line": 21,
+    "metrics": [
+      { "value": 155, "exceeded": true },
+      { "value": 28, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "BoxedPrimitives", "reportPath": "Argon_BoxedPrimitives.html", "methodName": "Get(int)", "methodShortName": "Get(...)", "fileIndex": 0, "line": 12,
+    "metrics": [
+      { "value": 132, "exceeded": true },
+      { "value": 11, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "SerializeValue(Argon.JsonWriter, object, Argon.JsonContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty)", "methodShortName": "SerializeValue(...)", "fileIndex": 0, "line": 106,
+    "metrics": [
+      { "value": 125, "exceeded": true },
+      { "value": 34, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultContractResolver", "reportPath": "Argon_DefaultContractResolver.html", "methodName": "TryGetImmutableConstructor(System.Type, Argon.JsonPropertyCollection, out System.Reflection.ConstructorInfo)", "methodShortName": "TryGetImmutableConstructor(...)", "fileIndex": 0, "line": 244,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultJsonNameTable", "reportPath": "Argon_DefaultJsonNameTable.html", "methodName": "Get(char[], int, int)", "methodShortName": "Get(...)", "fileIndex": 0, "line": 37,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.ExpandoObjectConverter", "reportPath": "Argon_ExpandoObjectConverter.html", "methodName": "ReadObject(Argon.JsonReader)", "methodShortName": "ReadObject(...)", "fileIndex": 0, "line": 73,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JContainer", "reportPath": "Argon_JContainer.html", "methodName": "InsertItem(int, Argon.JToken, bool)", "methodShortName": "InsertItem(...)", "fileIndex": 0, "line": 181,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JContainer", "reportPath": "Argon_JContainer.html", "methodName": "CopyItemsTo(System.Array, int)", "methodShortName": "CopyItemsTo(...)", "fileIndex": 0, "line": 329,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JObject", "reportPath": "Argon_JObject.html", "methodName": "System.Collections.Generic.ICollection\u003CSystem.Collections.Generic.KeyValuePair\u003CSystem.String,Argon.JToken\u003E\u003E.CopyTo(System.Collections.Generic.KeyValuePair\u003Cstring, Argon.JToken\u003E[], int)", "methodShortName": "System.Collections.Generic.ICollection\u003CSystem.Collections.Generic.KeyValuePair\u003CSystem.String,Argon.JToken\u003E\u003E.CopyTo(...)", "fileIndex": 0, "line": 486,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonConvert", "reportPath": "Argon_JsonConvert.html", "methodName": "EnsureFloatFormat(double, string, Argon.FloatFormatHandling, char, bool)", "methodShortName": "EnsureFloatFormat(...)", "fileIndex": 0, "line": 154,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonConvert", "reportPath": "Argon_JsonConvert.html", "methodName": "EnsureDecimalPlace(double, string)", "methodShortName": "EnsureDecimalPlace(...)", "fileIndex": 0, "line": 188,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadArrayElementIntoByteArrayReportDone(System.Collections.Generic.List\u003Cbyte\u003E)", "methodShortName": "ReadArrayElementIntoByteArrayReportDone(...)", "fileIndex": 0, "line": 504,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadIntoWrappedTypeObject()", "methodShortName": "ReadIntoWrappedTypeObject()", "fileIndex": 0, "line": 822,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseNumberNegativeInfinity(ReadType, bool)", "methodShortName": "ParseNumberNegativeInfinity(...)", "fileIndex": 0, "line": 2086,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseNumberPositiveInfinity(ReadType, bool)", "methodShortName": "ParseNumberPositiveInfinity(...)", "fileIndex": 0, "line": 2115,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseNumberNaN(ReadType, bool)", "methodShortName": "ParseNumberNaN(...)", "fileIndex": 0, "line": 2144,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonWriter", "reportPath": "Argon_JsonWriter.html", "methodName": "WriteToken(Argon.JsonReader, bool, bool)", "methodShortName": "WriteToken(...)", "fileIndex": 0, "line": 473,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "get_Path()", "methodShortName": "get_Path()", "fileIndex": 0, "line": 201,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 566,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 609,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 671,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 702,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 733,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 866,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 897,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 927,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 958,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 989,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 1036,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 1066,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 1113,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 1143,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 1382,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 1412,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JTokenReader", "reportPath": "Argon_JTokenReader.html", "methodName": "Read()", "methodShortName": "Read()", "fileIndex": 0, "line": 44,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JTokenReader", "reportPath": "Argon_JTokenReader.html", "methodName": "ReadOver(Argon.JToken)", "methodShortName": "ReadOver(...)", "fileIndex": 0, "line": 72,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "CompareBigInteger(System.Numerics.BigInteger, object)", "methodShortName": "CompareBigInteger(...)", "fileIndex": 0, "line": 168,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "BoxedPrimitives", "reportPath": "Argon_BoxedPrimitives.html", "methodName": "Get(double)", "methodShortName": "Get(...)", "fileIndex": 0, "line": 105,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "FromBigInteger(System.Numerics.BigInteger, System.Type)", "methodShortName": "FromBigInteger(...)", "fileIndex": 0, "line": 203,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "EnsureTypeAssignable(object, System.Type, System.Type)", "methodShortName": "EnsureTypeAssignable(...)", "fileIndex": 0, "line": 493,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeParser", "reportPath": "Argon_DateTimeParser.html", "methodName": "Parse2Digit(int, out int)", "methodShortName": "Parse2Digit(...)", "fileIndex": 0, "line": 197,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "EnumUtils", "reportPath": "Argon_EnumUtils.html", "methodName": "InitializeValuesAndNames(System.Tuple\u003CSystem.Type, Argon.NamingStrategy\u003E)", "methodShortName": "InitializeValuesAndNames(...)", "fileIndex": 0, "line": 15,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonPosition", "reportPath": "Argon_JsonPosition.html", "methodName": "WriteTo(System.Text.StringBuilder, ref System.IO.StringWriter, ref char[])", "methodShortName": "WriteTo(...)", "fileIndex": 0, "line": 34,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CreateJObject(Argon.JsonReader)", "methodShortName": "CreateJObject(...)", "fileIndex": 0, "line": 126,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CoerceEmptyStringToNull(System.Type, Argon.JsonContract, string)", "methodShortName": "CoerceEmptyStringToNull(...)", "fileIndex": 0, "line": 225,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "ShouldSetPropertyValue(Argon.JsonProperty, Argon.JsonObjectContract, object)", "methodShortName": "ShouldSetPropertyValue(...)", "fileIndex": 0, "line": 1006,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "CheckPropertyName(Argon.JsonReader, string)", "methodShortName": "CheckPropertyName(...)", "fileIndex": 0, "line": 2135,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "GetAssemblyDelimiterIndex(string)", "methodShortName": "GetAssemblyDelimiterIndex(...)", "fileIndex": 0, "line": 464,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "StringUtils", "reportPath": "Argon_StringUtils.html", "methodName": "ForgivingCaseSensitiveFind(Argon.JsonPropertyCollection, string)", "methodShortName": "ForgivingCaseSensitiveFind(...)", "fileIndex": 0, "line": 34,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "CanSetMemberValue(System.Reflection.MemberInfo, bool, bool)", "methodShortName": "CanSetMemberValue(...)", "fileIndex": 0, "line": 405,
+    "metrics": [
+      { "value": 101, "exceeded": true },
+      { "value": 16, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonSerializer", "reportPath": "Argon_JsonSerializer.html", "methodName": "SerializeInternal(Argon.JsonWriter, object, System.Type)", "methodShortName": "SerializeInternal(...)", "fileIndex": 0, "line": 622,
+    "metrics": [
+      { "value": 97, "exceeded": true },
+      { "value": 28, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonWriter", "reportPath": "Argon_JsonWriter.html", "methodName": "get_WriteState()", "methodShortName": "get_WriteState()", "fileIndex": 0, "line": 113,
+    "metrics": [
+      { "value": 90, "exceeded": true },
+      { "value": 9, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "CalculatePropertyValues(Argon.JsonWriter, object, Argon.JsonContainerContract, Argon.JsonProperty, Argon.JsonProperty, out Argon.JsonContract, out object)", "methodShortName": "CalculatePropertyValues(...)", "fileIndex": 0, "line": 427,
+    "metrics": [
+      { "value": 89, "exceeded": true },
+      { "value": 26, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultContractResolver", "reportPath": "Argon_DefaultContractResolver.html", "methodName": "HasParameterizedCreator(System.Reflection.ConstructorInfo, Argon.JsonArrayContract)", "methodShortName": "HasParameterizedCreator(...)", "fileIndex": 0, "line": 479,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.ExpandoObjectConverter", "reportPath": "Argon_ExpandoObjectConverter.html", "methodName": "ReadValue(Argon.JsonReader)", "methodShortName": "ReadValue(...)", "fileIndex": 0, "line": 29,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JContainer", "reportPath": "Argon_JContainer.html", "methodName": "ContentsEqual(Argon.JContainer)", "methodShortName": "ContentsEqual(...)", "fileIndex": 0, "line": 43,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JContainer", "reportPath": "Argon_JContainer.html", "methodName": "GetDescendants()", "methodShortName": "GetDescendants()", "fileIndex": 0, "line": 128,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JObject", "reportPath": "Argon_JObject.html", "methodName": "ValidateToken(Argon.JToken, Argon.JToken)", "methodShortName": "ValidateToken(...)", "fileIndex": 0, "line": 87,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JObject", "reportPath": "Argon_JObject.html", "methodName": "PropertyOrNull(string, System.StringComparison)", "methodShortName": "PropertyOrNull(...)", "fileIndex": 0, "line": 152,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonConverter\u003CT\u003E", "reportPath": "Argon_JsonConverter_T_.html", "methodName": "ReadJson(Argon.JsonReader, System.Type, object, Argon.JsonSerializer)", "methodShortName": "ReadJson(...)", "fileIndex": 0, "line": 62,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "Push(JsonContainerType)", "methodShortName": "Push(...)", "fileIndex": 0, "line": 244,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "Skip()", "methodShortName": "Skip()", "fileIndex": 0, "line": 844,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "MoveToContent()", "methodShortName": "MoveToContent()", "fileIndex": 0, "line": 1229,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadNumberIntoBuffer()", "methodShortName": "ReadNumberIntoBuffer()", "fileIndex": 0, "line": 1167,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseUnquotedProperty()", "methodShortName": "ParseUnquotedProperty()", "fileIndex": 0, "line": 1432,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "IsSeparator(char)", "methodShortName": "IsSeparator(...)", "fileIndex": 0, "line": 2002,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextWriter", "reportPath": "Argon_JsonTextWriter.html", "methodName": "EnsureBuffer(int, int)", "methodShortName": "EnsureBuffer(...)", "fileIndex": 0, "line": 671,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "op_Explicit(Argon.JToken)", "methodShortName": "op_Explicit(...)", "fileIndex": 0, "line": 1276,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "SetLineInfo(Argon.IJsonLineInfo, Argon.JsonLoadSettings)", "methodShortName": "SetLineInfo(...)", "fileIndex": 0, "line": 2014,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JTokenReader", "reportPath": "Argon_JTokenReader.html", "methodName": "get_Path()", "methodShortName": "get_Path()", "fileIndex": 0, "line": 266,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JTokenWriter", "reportPath": "Argon_JTokenWriter.html", "methodName": "AddJValue(Argon.JValue)", "methodShortName": "AddJValue(...)", "fileIndex": 0, "line": 138,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "GetStringValueType(System.Nullable\u003CArgon.JTokenType\u003E)", "methodShortName": "GetStringValueType(...)", "fileIndex": 0, "line": 600,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "System.IComparable.CompareTo(object)", "methodShortName": "System.IComparable.CompareTo(...)", "fileIndex": 0, "line": 969,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.KeyValuePairConverter", "reportPath": "Argon_KeyValuePairConverter.html", "methodName": "WriteJson(Argon.JsonWriter, object, Argon.JsonSerializer)", "methodShortName": "WriteJson(...)", "fileIndex": 0, "line": 34,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "BidirectionalDictionary\u003CTFirst, TSecond\u003E", "reportPath": "Argon_BidirectionalDictionary_TFirst__TSecond_.html", "methodName": "Set(TFirst, TSecond)", "methodShortName": "Set(...)", "fileIndex": 0, "line": 22,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "CollectionUtils", "reportPath": "Argon_CollectionUtils.html", "methodName": "CopyFromJaggedToMultidimensionalArray(System.Collections.IList, System.Array, int[])", "methodShortName": "CopyFromJaggedToMultidimensionalArray(...)", "fileIndex": 0, "line": 126,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DictionaryWrapper\u003CTKey, TValue\u003E", "reportPath": "Argon_DictionaryWrapper_TKey__TValue_.html", "methodName": "CopyTo(System.Collections.Generic.KeyValuePair\u003CTKey, TValue\u003E[], int)", "methodShortName": "CopyTo(...)", "fileIndex": 0, "line": 223,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DictionaryWrapper\u003CTKey, TValue\u003E", "reportPath": "Argon_DictionaryWrapper_TKey__TValue_.html", "methodName": "Remove(System.Collections.Generic.KeyValuePair\u003CTKey, TValue\u003E)", "methodShortName": "Remove(...)", "fileIndex": 0, "line": 288,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JavaScriptUtils", "reportPath": "Argon_JavaScriptUtils.html", "methodName": "FirstCharToEscape(System.ReadOnlySpan\u003Cchar\u003E, bool[], Argon.EscapeHandling)", "methodShortName": "FirstCharToEscape(...)", "fileIndex": 0, "line": 283,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonPosition", "reportPath": "Argon_JsonPosition.html", "methodName": "BuildPath(System.Collections.Generic.List\u003CJsonPosition\u003E, System.Nullable\u003CJsonPosition\u003E)", "methodShortName": "BuildPath(...)", "fileIndex": 0, "line": 72,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonPosition", "reportPath": "Argon_JsonPosition.html", "methodName": "FormatMessage(Argon.IJsonLineInfo, string, string)", "methodShortName": "FormatMessage(...)", "fileIndex": 0, "line": 99,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "SetPropertyPresence(Argon.JsonReader, Argon.JsonProperty, System.Collections.Generic.Dictionary\u003CArgon.JsonProperty, JsonSerializerInternalReader.PropertyPresence\u003E)", "methodShortName": "SetPropertyPresence(...)", "fileIndex": 0, "line": 2214,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "IsDeserializeErrorHandled(object, object, string, System.Exception)", "methodShortName": "IsDeserializeErrorHandled(...)", "fileIndex": 0, "line": 2279,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "ShouldWriteDynamicProperty(object)", "methodShortName": "ShouldWriteDynamicProperty(...)", "fileIndex": 0, "line": 829,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "IsSerializeErrorHandled(object, object, string, System.Exception)", "methodShortName": "IsSerializeErrorHandled(...)", "fileIndex": 0, "line": 1106,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "GetCollectionItemType(System.Type)", "methodShortName": "GetCollectionItemType(...)", "fileIndex": 0, "line": 270,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "IsMethodOverridden(System.Type, System.Type, string)", "methodShortName": "IsMethodOverridden(...)", "fileIndex": 0, "line": 671,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "CheckForCircularReference(Argon.JsonWriter, object, Argon.JsonProperty, Argon.JsonContract, Argon.JsonContainerContract, Argon.JsonProperty)", "methodShortName": "CheckForCircularReference(...)", "fileIndex": 0, "line": 238,
+    "metrics": [
+      { "value": 60, "exceeded": true },
+      { "value": 26, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultContractResolver", "reportPath": "Argon_DefaultContractResolver.html", "methodName": "SetPropertySettingsFromAttributes(Argon.JsonProperty, System.Reflection.ICustomAttributeProvider, string, System.Type, Argon.MemberSerialization, out bool)", "methodShortName": "SetPropertySettingsFromAttributes(...)", "fileIndex": 0, "line": 724,
+    "metrics": [
+      { "value": 56, "exceeded": true },
+      { "value": 22, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "GetExpectedDescription(Argon.JsonContract)", "methodShortName": "GetExpectedDescription(...)", "fileIndex": 0, "line": 233,
+    "metrics": [
+      { "value": 56, "exceeded": true },
+      { "value": 7, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalWriter", "reportPath": "Argon_JsonSerializerInternalWriter.html", "methodName": "WriteStartArray(Argon.JsonWriter, object, Argon.JsonArrayContract, Argon.JsonProperty, Argon.JsonContainerContract, Argon.JsonProperty)", "methodShortName": "WriteStartArray(...)", "fileIndex": 0, "line": 714,
+    "metrics": [
+      { "value": 50, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "DelegateFactory", "reportPath": "Argon_DelegateFactory.html", "methodName": "GenerateCreateMethodCallIL(System.Reflection.MethodBase, System.Reflection.Emit.ILGenerator, int)", "methodShortName": "GenerateCreateMethodCallIL(...)", "fileIndex": 0, "line": 48,
+    "metrics": [
+      { "value": 46, "exceeded": true },
+      { "value": 28, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "DelegateFactory\u003CT\u003E", "reportPath": "Argon_DelegateFactory_T_.html", "methodName": "GenerateCreateMethodCallIL(System.Reflection.MethodBase, System.Reflection.Emit.ILGenerator, int)", "methodShortName": "GenerateCreateMethodCallIL(...)", "fileIndex": 0, "line": 48,
+    "metrics": [
+      { "value": 46, "exceeded": true },
+      { "value": 28, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.CamelCasePropertyNamesContractResolver", "reportPath": "Argon_CamelCasePropertyNamesContractResolver.html", "methodName": "ResolveContract(System.Type)", "methodShortName": "ResolveContract(...)", "fileIndex": 0, "line": 37,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DateTimeConverterBase", "reportPath": "Argon_DateTimeConverterBase.html", "methodName": "CanConvert(System.Type)", "methodShortName": "CanConvert(...)", "fileIndex": 0, "line": 20,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultJsonNameTable", "reportPath": "Argon_DefaultJsonNameTable.html", "methodName": "TextEquals(string, char[], int, int)", "methodShortName": "TextEquals(...)", "fileIndex": 0, "line": 152,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultSerializationBinder", "reportPath": "Argon_DefaultSerializationBinder.html", "methodName": "GetNameKeyFromType(System.Type)", "methodShortName": "GetNameKeyFromType(...)", "fileIndex": 0, "line": 164,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.ExpandoObjectConverter", "reportPath": "Argon_ExpandoObjectConverter.html", "methodName": "ReadList(Argon.JsonReader)", "methodShortName": "ReadList(...)", "fileIndex": 0, "line": 52,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JArray", "reportPath": "Argon_JArray.html", "methodName": "Load(Argon.JsonReader, Argon.JsonLoadSettings)", "methodShortName": "Load(...)", "fileIndex": 0, "line": 84,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JContainer", "reportPath": "Argon_JContainer.html", "methodName": "IsMultiContent(object)", "methodShortName": "IsMultiContent(...)", "fileIndex": 0, "line": 147,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JObject", "reportPath": "Argon_JObject.html", "methodName": "Load(Argon.JsonReader, Argon.JsonLoadSettings)", "methodShortName": "Load(...)", "fileIndex": 0, "line": 254,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JProperty", "reportPath": "Argon_JProperty.html", "methodName": "InsertItem(int, Argon.JToken, bool)", "methodShortName": "InsertItem(...)", "fileIndex": 0, "line": 191,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JProperty", "reportPath": "Argon_JProperty.html", "methodName": "Load(Argon.JsonReader, Argon.JsonLoadSettings)", "methodShortName": "Load(...)", "fileIndex": 0, "line": 291,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonArrayContract", "reportPath": "Argon_JsonArrayContract.html", "methodName": "CreateWrapper(object)", "methodShortName": "CreateWrapper(...)", "fileIndex": 0, "line": 218,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonArrayContract", "reportPath": "Argon_JsonArrayContract.html", "methodName": "CreateTemporaryCollection()", "methodShortName": "CreateTemporaryCollection()", "fileIndex": 0, "line": 246,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonDictionaryContract", "reportPath": "Argon_JsonDictionaryContract.html", "methodName": "IsSortedDictionary(System.Type)", "methodShortName": "IsSortedDictionary(...)", "fileIndex": 0, "line": 188,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonDictionaryContract", "reportPath": "Argon_JsonDictionaryContract.html", "methodName": "CreateTemporaryDictionary()", "methodShortName": "CreateTemporaryDictionary()", "fileIndex": 0, "line": 220,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonPropertyCollection", "reportPath": "Argon_JsonPropertyCollection.html", "methodName": "GetClosestMatchProperty(string)", "methodShortName": "GetClosestMatchProperty(...)", "fileIndex": 0, "line": 112,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "get_Path()", "methodShortName": "get_Path()", "fileIndex": 0, "line": 206,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "Pop()", "methodShortName": "Pop()", "fileIndex": 0, "line": 266,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadDecimalString(string)", "methodShortName": "ReadDecimalString(...)", "fileIndex": 0, "line": 684,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadDateTimeString(string)", "methodShortName": "ReadDateTimeString(...)", "fileIndex": 0, "line": 735,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ReadDateTimeOffsetString(string)", "methodShortName": "ReadDateTimeOffsetString(...)", "fileIndex": 0, "line": 787,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "SetPostValueState(bool)", "methodShortName": "SetPostValueState(...)", "fileIndex": 0, "line": 1046,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonReader", "reportPath": "Argon_JsonReader.html", "methodName": "ValidateEnd(Argon.JsonToken)", "methodShortName": "ValidateEnd(...)", "fileIndex": 0, "line": 1072,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ParseReadString(char, ReadType)", "methodShortName": "ParseReadString(...)", "fileIndex": 0, "line": 82,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ShiftBufferIfNeeded()", "methodShortName": "ShiftBufferIfNeeded()", "fileIndex": 0, "line": 134,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadChars(int, bool)", "methodShortName": "ReadChars(...)", "fileIndex": 0, "line": 240,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadFinished()", "methodShortName": "ReadFinished()", "fileIndex": 0, "line": 920,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ValidIdentifierChar(char)", "methodShortName": "ValidIdentifierChar(...)", "fileIndex": 0, "line": 1428,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "ReadUnquotedPropertyReportIfDone(char, int)", "methodShortName": "ReadUnquotedPropertyReportIfDone(...)", "fileIndex": 0, "line": 1463,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "MatchValue(bool, string)", "methodShortName": "MatchValue(...)", "fileIndex": 0, "line": 1956,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "MatchValueWithTrailingSeparator(string)", "methodShortName": "MatchValueWithTrailingSeparator(...)", "fileIndex": 0, "line": 1979,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextReader", "reportPath": "Argon_JsonTextReader.html", "methodName": "get_LineNumber()", "methodShortName": "get_LineNumber()", "fileIndex": 0, "line": 2202,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextWriter", "reportPath": "Argon_JsonTextWriter.html", "methodName": "WriteValue(byte[])", "methodShortName": "WriteValue(...)", "fileIndex": 0, "line": 529,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextWriter", "reportPath": "Argon_JsonTextWriter.html", "methodName": "WriteIntegerValue(long)", "methodShortName": "WriteIntegerValue(...)", "fileIndex": 0, "line": 700,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonTextWriter", "reportPath": "Argon_JsonTextWriter.html", "methodName": "WriteNumberToBuffer(ulong, bool)", "methodShortName": "WriteNumberToBuffer(...)", "fileIndex": 0, "line": 726,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonWriter", "reportPath": "Argon_JsonWriter.html", "methodName": "get_Path()", "methodShortName": "get_Path()", "fileIndex": 0, "line": 155,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonWriter", "reportPath": "Argon_JsonWriter.html", "methodName": "IsWriteTokenIncomplete(Argon.JsonReader, bool, int)", "methodShortName": "IsWriteTokenIncomplete(...)", "fileIndex": 0, "line": 496,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "DeepEquals(Argon.JToken, Argon.JToken)", "methodShortName": "DeepEquals(...)", "fileIndex": 0, "line": 182,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "ToBigIntegerNullable(Argon.JToken)", "methodShortName": "ToBigIntegerNullable(...)", "fileIndex": 0, "line": 1441,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JToken", "reportPath": "Argon_JToken.html", "methodName": "BeforeSelf()", "methodShortName": "BeforeSelf()", "fileIndex": 0, "line": 321,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "set_Value(object)", "methodShortName": "set_Value(...)", "fileIndex": 0, "line": 642,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "CompareTo(Argon.JValue)", "methodShortName": "CompareTo(...)", "fileIndex": 0, "line": 1012,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue", "reportPath": "Argon_JValue.html", "methodName": "TryConvert(Argon.JValue, System.Dynamic.ConvertBinder, out object)", "methodShortName": "TryConvert(...)", "fileIndex": 0, "line": 903,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JValue.JValueDynamicProxy", "reportPath": "Argon_JValueDynamicProxy.html", "methodName": "TryConvert(Argon.JValue, System.Dynamic.ConvertBinder, out object)", "methodShortName": "TryConvert(...)", "fileIndex": 0, "line": 903,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.NamingStrategy", "reportPath": "Argon_NamingStrategy.html", "methodName": "Equals(Argon.NamingStrategy)", "methodShortName": "Equals(...)", "fileIndex": 0, "line": 86,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.RegexConverter", "reportPath": "Argon_RegexConverter.html", "methodName": "ReadJson(Argon.JsonReader, System.Type, object, Argon.JsonSerializer)", "methodShortName": "ReadJson(...)", "fileIndex": 0, "line": 52,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.RegexConverter", "reportPath": "Argon_RegexConverter.html", "methodName": "ReadRegexString(Argon.JsonReader)", "methodShortName": "ReadRegexString(...)", "fileIndex": 0, "line": 67,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "BoxedPrimitives", "reportPath": "Argon_BoxedPrimitives.html", "methodName": "Get(decimal)", "methodShortName": "Get(...)", "fileIndex": 0, "line": 77,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "CollectionUtils", "reportPath": "Argon_CollectionUtils.html", "methodName": "GetDimensions(System.Collections.IList, int)", "methodShortName": "GetDimensions(...)", "fileIndex": 0, "line": 92,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "CollectionWrapper\u003CT\u003E", "reportPath": "Argon_CollectionWrapper_T_.html", "methodName": "IsCompatibleObject(object)", "methodShortName": "IsCompatibleObject(...)", "fileIndex": 0, "line": 242,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ConvertUtils", "reportPath": "Argon_ConvertUtils.html", "methodName": "ConvertOrCast(object, System.Type)", "methodShortName": "ConvertOrCast(...)", "fileIndex": 0, "line": 469,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DateTimeUtils", "reportPath": "Argon_DateTimeUtils.html", "methodName": "WriteDateTimeString(char[], int, System.DateTime, System.Nullable\u003CSystem.TimeSpan\u003E, System.DateTimeKind)", "methodShortName": "WriteDateTimeString(...)", "fileIndex": 0, "line": 138,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DictionaryWrapper\u003CTKey, TValue\u003E", "reportPath": "Argon_DictionaryWrapper_TKey__TValue_.html", "methodName": "Remove(TKey)", "methodShortName": "Remove(...)", "fileIndex": 0, "line": 82,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DictionaryWrapper\u003CTKey, TValue\u003E", "reportPath": "Argon_DictionaryWrapper_TKey__TValue_.html", "methodName": "TryGetValue(TKey, out TValue)", "methodShortName": "TryGetValue(...)", "fileIndex": 0, "line": 103,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DictionaryWrapper\u003CTKey, TValue\u003E", "reportPath": "Argon_DictionaryWrapper_TKey__TValue_.html", "methodName": "Add(System.Collections.Generic.KeyValuePair\u003CTKey, TValue\u003E)", "methodShortName": "Add(...)", "fileIndex": 0, "line": 176,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "DictionaryWrapper\u003CTKey, TValue\u003E", "reportPath": "Argon_DictionaryWrapper_TKey__TValue_.html", "methodName": "GetEnumerator()", "methodShortName": "GetEnumerator()", "fileIndex": 0, "line": 316,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "EnumUtils", "reportPath": "Argon_EnumUtils.html", "methodName": "FindIndexByName(string[], string, int, int, System.StringComparison)", "methodShortName": "FindIndexByName(...)", "fileIndex": 0, "line": 293,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JavaScriptUtils", "reportPath": "Argon_JavaScriptUtils.html", "methodName": "WriteEscapedJavaScriptString(System.IO.TextWriter, System.ReadOnlySpan\u003Cchar\u003E, char, bool, bool[], Argon.EscapeHandling, ref char[])", "methodShortName": "WriteEscapedJavaScriptString(...)", "fileIndex": 0, "line": 84,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JPropertyKeyedCollection", "reportPath": "Argon_JPropertyKeyedCollection.html", "methodName": "SetItem(int, Argon.JToken)", "methodShortName": "SetItem(...)", "fileIndex": 0, "line": 69,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalBase", "reportPath": "Argon_JsonSerializerInternalBase.html", "methodName": "ResolvedNullValueHandling(Argon.JsonObjectContract, Argon.JsonProperty)", "methodShortName": "ResolvedNullValueHandling(...)", "fileIndex": 0, "line": 44,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "HasNoDefinedType(Argon.JsonContract)", "methodShortName": "HasNoDefinedType(...)", "fileIndex": 0, "line": 767,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "JsonSerializerInternalReader", "reportPath": "Argon_JsonSerializerInternalReader.html", "methodName": "HandleError(Argon.JsonReader, bool, int)", "methodShortName": "HandleError(...)", "fileIndex": 0, "line": 2247,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "MiscellaneousUtils", "reportPath": "Argon_MiscellaneousUtils.html", "methodName": "ByteArrayCompare(byte[], byte[])", "methodShortName": "ByteArrayCompare(...)", "fileIndex": 0, "line": 78,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "GetTypeName(System.Type, System.Nullable\u003CArgon.TypeNameAssemblyFormatHandling\u003E, Argon.ISerializationBinder)", "methodShortName": "GetTypeName(...)", "fileIndex": 0, "line": 54,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "GetDictionaryKeyValueTypes(System.Type, out System.Type, out System.Type)", "methodShortName": "GetDictionaryKeyValueTypes(...)", "fileIndex": 0, "line": 298,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultContractResolver", "reportPath": "Argon_DefaultContractResolver.html", "methodName": "CreateContract(System.Type)", "methodShortName": "CreateContract(...)", "fileIndex": 0, "line": 557,
+    "metrics": [
+      { "value": 40, "exceeded": true },
+      { "value": 22, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonPropertyCollection", "reportPath": "Argon_JsonPropertyCollection.html", "methodName": "GetClosestMatchProperty(string, System.Type)", "methodShortName": "GetClosestMatchProperty(...)", "fileIndex": 0, "line": 138,
+    "metrics": [
+      { "value": 40, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonWriter", "reportPath": "Argon_JsonWriter.html", "methodName": "WriteValue(Argon.JsonWriter, PrimitiveTypeCode, object)", "methodShortName": "WriteValue(...)", "fileIndex": 0, "line": 1273,
+    "metrics": [
+      { "value": 31, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.JsonWriter", "reportPath": "Argon_JsonWriter.html", "methodName": "AutoComplete(Argon.JsonToken)", "methodShortName": "AutoComplete(...)", "fileIndex": 0, "line": 673,
+    "metrics": [
+      { "value": 22, "exceeded": false },
+      { "value": 22, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultContractResolver", "reportPath": "Argon_DefaultContractResolver.html", "methodName": "CreateObjectContract(System.Type)", "methodShortName": "CreateObjectContract(...)", "fileIndex": 0, "line": 171,
+    "metrics": [
+      { "value": 29, "exceeded": false },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "ReflectionUtils", "reportPath": "Argon_ReflectionUtils.html", "methodName": "ImplementsGeneric(System.Type, System.Type, out System.Type)", "methodShortName": "ImplementsGeneric(...)", "fileIndex": 0, "line": 196,
+    "metrics": [
+      { "value": 19, "exceeded": false },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "Argon", "class": "Argon.DefaultContractResolver", "reportPath": "Argon_DefaultContractResolver.html", "methodName": "GetSerializableMembers(System.Type)", "methodShortName": "GetSerializableMembers(...)", "fileIndex": 0, "line": 87,
+    "metrics": [
+      { "value": 17, "exceeded": false },
+      { "value": 16, "exceeded": true },
+    ]},
 ];
 
 var branchCoverageAvailable = true;

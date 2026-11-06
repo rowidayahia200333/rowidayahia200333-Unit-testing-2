@@ -1,3 +1,4 @@
+using Simulation.Checkout.Application;
 using VerifyXunit;
 using System;
 using Xunit;
