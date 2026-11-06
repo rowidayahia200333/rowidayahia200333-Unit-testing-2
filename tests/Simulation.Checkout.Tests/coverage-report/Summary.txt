@@ -1,0 +1,162 @@
+Summary
+  Generated on: 11/6/2026 - 8:11:30 AM
+  Parser: Cobertura
+  Assemblies: 3
+  Classes: 137
+  Files: 116
+  Line coverage: 17.7%
+  Covered lines: 1858
+  Uncovered lines: 8613
+  Coverable lines: 10471
+  Total lines: 29077
+  Branch coverage: 9.3% (637 of 6779)
+  Covered branches: 637
+  Total branches: 6779
+  Method coverage: 15% (259 of 1721)
+  Full method coverage: 8.8% (152 of 1721)
+  Covered methods: 259
+  Fully covered methods: 152
+  Total methods: 1721
+
+Argon                                                                                      13.5%
+  Argon.CamelCaseNamingStrategy                                                               0%
+  Argon.CamelCasePropertyNamesContractResolver                                                0%
+  Argon.DateTimeConverterBase                                                                 0%
+  Argon.DefaultContractResolver                                                            60.2%
+  Argon.DefaultJsonNameTable                                                               42.4%
+  Argon.DefaultJsonNameTable.Entry                                                          100%
+  Argon.DefaultNamingStrategy                                                                 0%
+  Argon.DefaultSerializationBinder                                                            0%
+  Argon.DynamicValueProvider                                                               38.4%
+  Argon.EncodingConverter                                                                     0%
+  Argon.ExpandoObjectConverter                                                              3.4%
+  Argon.Extensions                                                                            0%
+  Argon.Extensions<T, U>                                                                      0%
+  Argon.Extensions<T>                                                                         0%
+  Argon.IsoDateTimeConverter                                                                  0%
+  Argon.ItemInterceptResult                                                                71.4%
+  Argon.JArray                                                                                0%
+  Argon.JContainer                                                                            0%
+  Argon.JEnumerable<T>                                                                        0%
+  Argon.JObject                                                                               0%
+  Argon.JObject.JObjectDynamicProxy                                                           0%
+  Argon.JProperty                                                                             0%
+  Argon.JProperty.JPropertyList                                                               0%
+  Argon.JRaw                                                                                  0%
+  Argon.JsonArrayAttribute                                                                    0%
+  Argon.JsonArrayContract                                                                  36.4%
+  Argon.JsonContainerAttribute                                                                0%
+  Argon.JsonContainerContract                                                              44.4%
+  Argon.JsonContract                                                                       94.1%
+  Argon.JsonConvert                                                                         1.8%
+  Argon.JsonConverter                                                                        50%
+  Argon.JsonConverter<T>                                                                   12.5%
+  Argon.JsonConverterAttribute                                                                0%
+  Argon.JsonDictionaryAttribute                                                               0%
+  Argon.JsonDictionaryContract                                                                0%
+  Argon.JsonDynamicContract                                                                   0%
+  Argon.JsonException                                                                         0%
+  Argon.JsonLinqContract                                                                      0%
+  Argon.JsonLoadSettings                                                                      0%
+  Argon.JsonObjectAttribute                                                                   0%
+  Argon.JsonObjectContract                                                                 33.3%
+  Argon.JsonPrimitiveContract                                                               100%
+  Argon.JsonProperty                                                                       57.1%
+  Argon.JsonPropertyAttribute                                                                 0%
+  Argon.JsonPropertyCollection                                                               34%
+  Argon.JsonReader                                                                            0%
+  Argon.JsonReaderException                                                                   0%
+  Argon.JsonSerializationException                                                            0%
+  Argon.JsonSerializer                                                                     40.9%
+  Argon.JsonSerializerSettings                                                              7.3%
+  Argon.JsonStringContract                                                                    0%
+  Argon.JsonTextReader                                                                        0%
+  Argon.JsonTextWriter                                                                       20%
+  Argon.JsonWriter                                                                         25.8%
+  Argon.JsonWriterException                                                                   0%
+  Argon.JToken                                                                                0%
+  Argon.JTokenEqualityComparer                                                                0%
+  Argon.JTokenReader                                                                          0%
+  Argon.JTokenWriter                                                                          0%
+  Argon.JValue                                                                                0%
+  Argon.JValue.JValueDynamicProxy                                                             0%
+  Argon.KebabCaseNamingStrategy                                                               0%
+  Argon.KeyValueInterceptResult                                                               0%
+  Argon.KeyValuePairConverter                                                              11.1%
+  Argon.NamingStrategy                                                                        0%
+  Argon.RegexConverter                                                                      2.1%
+  Argon.SnakeCaseNamingStrategy                                                               0%
+  Argon.StringBuilderConverter                                                                0%
+  Argon.StringEnumConverter                                                                13.1%
+  Argon.StringWriterConverter                                                                 0%
+  Argon.VersionConverter                                                                      0%
+  AttributeCache<T>                                                                         100%
+  Base64Encoder                                                                               0%
+  BidirectionalDictionary<TFirst, TSecond>                                                    0%
+  BoxedPrimitives                                                                             0%
+  BufferUtils                                                                                 0%
+  CollectionUtils                                                                          26.8%
+  CollectionUtils.EmptyArrayContainer<T>                                                      0%
+  CollectionWrapper<T>                                                                        0%
+  ConvertUtils                                                                             17.4%
+  ConvertUtils.CastConverters                                                                 0%
+  DateTimeParser                                                                              0%
+  DateTimeUtils                                                                               0%
+  DefaultReferenceResolver                                                                    0%
+  DelegateFactory                                                                          56.1%
+  DelegateFactory<T>                                                                       56.1%
+  DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorKey, TEnumeratorValue>      0%
+  DictionaryWrapper<TKey, TValue>                                                             0%
+  DictionaryWrapper<TKey, TValue>                                                             0%
+  DriveInfoConverter                                                                          0%
+  DynamicProxy<T>                                                                             0%
+  DynamicProxyMetaObject.GetBinderAdapter<T>                                                  0%
+  DynamicProxyMetaObject<T>                                                                   0%
+  DynamicProxyMetaObject<T>                                                                   0%
+  DynamicUtils                                                                                0%
+  DynamicUtils.BinderWrapper                                                                  0%
+  EnumInfo                                                                                    0%
+  EnumUtils                                                                                   0%
+  ErrorContext                                                                                0%
+  ILGeneratorExtensions                                                                    86.9%
+  ImmutableCollectionsUtils                                                                80.5%
+  ImmutableCollectionsUtils.TypeInfo                                                        100%
+  JavaScriptUtils                                                                          20.9%
+  JPropertyKeyedCollection                                                                    0%
+  JsonPosition                                                                             10.2%
+  JsonSerializerInternalBase                                                                 25%
+  JsonSerializerInternalBase.ReferenceEqualsEqualityComparer                                  0%
+  JsonSerializerInternalReader                                                                0%
+  JsonSerializerInternalWriter                                                             32.9%
+  JsonSerializerProxy                                                                       5.5%
+  JsonTokenUtils                                                                              0%
+  JsonTypeReflector                                                                        61.8%
+  JsonTypeReflector.CreatorCache                                                              0%
+  MathUtils                                                                                   0%
+  MiscellaneousUtils                                                                       12.8%
+  NoThrowExpressionVisitor                                                                    0%
+  NoThrowGetBinderMember                                                                      0%
+  NoThrowSetBinderMember                                                                      0%
+  PathInfoConverter                                                                        22.2%
+  ReflectionObject                                                                            0%
+  ReflectionUtils                                                                            35%
+  StringBuffer                                                                                0%
+  StringReference                                                                             0%
+  StringUtils                                                                                 0%
+  ThreadSafeStore<TKey, TValue>                                                             100%
+  TimeZoneInfoConverter                                                                       0%
+  TypeInformation                                                                           100%
+
+CheckoutServiceTests                                                                        100%
+  CheckoutServiceTests                                                                      100%
+  DataTests                                                                                 100%
+  ReceiptSnapshotTests                                                                      100%
+
+Simulation.Checkout.Application                                                            96.6%
+  Simulation.Checkout.Application.CheckoutException                                         100%
+  Simulation.Checkout.Application.CheckoutService                                          95.8%
+  Simulation.Checkout.Application.EmptyOrderException                                       100%
+  Simulation.Checkout.Application.InsufficientInventoryException                            100%
+  Simulation.Checkout.Application.InvalidPriceException                                     100%
+  Simulation.Checkout.Application.InvalidQuantityException                                  100%
+  Simulation.Checkout.Application.Order                                                     100%
